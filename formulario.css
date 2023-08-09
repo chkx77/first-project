@@ -1,0 +1,50 @@
+html{
+	height: 100%;
+	background: linear-gradient(90deg ,darkseagreen, cyan);+
+	}
+
+body{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	font-family: monospace;
+	align-items: center;
+}
+
+.formbox{
+	padding: 15px;
+	background: rgba(120, 120, 190, 0.4);
+	border-radius: 10px;
+	color: white;
+	box-shadow: 4px 4px rgba(80, 80, 80, 0.5);
+}
+
+.formbox:hover{
+	padding: 21px;
+	transition: 200ms;
+}
+
+.formbox legend{
+	font-size: 20px;
+	color: black;
+}
+
+.formbox fieldset{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.formbox label{
+	font-size: 15px;
+	text-align: center;
+}
+
+.formbox input{
+	display: block;
+	margin: 7px 0;
+	width: 100%;
+}
+
+
+
